@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->modulesTabs->setTabsClosable(false);
 
     QSqlDatabase testdb=QSqlDatabase::addDatabase("QSQLITE");
-    testdb.setDatabaseName(УКАЖИТЕ ПУТЬ К БД В "");
+    testdb.setDatabaseName("D:/stuff/Projects/sqlite/testdb.db");
 
     setWindowTitle("Launcher");
     setStyleSheet("background-color: light gray");

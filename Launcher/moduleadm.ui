@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>611</width>
-    <height>321</height>
+    <width>623</width>
+    <height>311</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,20 @@
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>0</x>
      <y>10</y>
-     <width>591</width>
-     <height>301</height>
+     <width>621</width>
+     <height>261</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>621</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
    </property>
    <column>
     <property name="text">
@@ -34,14 +43,37 @@
    </column>
    <column>
     <property name="text">
-     <string>pass</string>
+     <string>password</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>role description</string>
+     <string>status</string>
     </property>
    </column>
+   <column>
+    <property name="text">
+     <string>is_adm</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>roles</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>181</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Редактировать участников</string>
+   </property>
   </widget>
  </widget>
  <resources/>
