@@ -15,7 +15,7 @@ Auth::Auth(QWidget *parent) :
     setWindowTitle("Авторизация");
 
     loginData = QSqlDatabase::addDatabase("QSQLITE");
-    loginData.setDatabaseName(УКАЖИТЕ ПУТЬ К БД В "");
+    loginData.setDatabaseName("D:/stuff/Projects/testdb.db");
     loginData.open();
 }
 
